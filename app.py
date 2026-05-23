@@ -5,7 +5,7 @@ command = [
     "--name", "test",
     "--region", "us-east-1",
     "--node-type", "t2.medium",
-    "--nodes", "6"
+    "--nodes", "7"
 ]
 
 subprocess.run(command, check=True)
